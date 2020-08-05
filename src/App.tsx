@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-import './assets/styles/global.css'
-import './assets/pages/Landing'
-import Landing from './assets/pages/Landing'
+import "./assets/styles/global.css";
+
+import Routes from "./routes";
 
 function App() {
-  return <Landing />
+  return <Routes />;
 }
 
-export default App
+export default App;
